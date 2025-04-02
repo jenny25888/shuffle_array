@@ -1,0 +1,33 @@
+{
+  "name": "@jenny2588/shuffle-array",
+  "version": "0.1.0",
+  "description": "A small library that takes an array as input and returns a new array that is shuffled.",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "microbundle",
+    "pretest": "npm run build", 
+    "test": "npx jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenny25888/shuffle_array.git"
+  },
+  "keywords": [
+    "array",
+    "shuffle",
+    "functional"
+  ],
+  "author": "JENNY <if23b171@technikum-wien.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenny25888/shuffle-array/issues"
+  },
+  "homepage": "https://github.com/jenny25888/shuffle-array#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "microbundle": "^0.15.1"
+  }
+}
